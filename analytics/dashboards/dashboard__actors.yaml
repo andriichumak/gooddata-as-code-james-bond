@@ -10,13 +10,9 @@ title: Actors
 
 sections:
   - widgets:
-      - visualization: actors__duration
-        title: For how long has each actors performed as Bond?
-        columns: 6
-        rows: 22
       - visualization: actors__number-of-movies
         title: In how many movies did each actor play?
-        columns: 6
+        columns: 12
         rows: 22
   - title: Most important Bond stats per actor
     widgets:
