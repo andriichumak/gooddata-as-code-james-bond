@@ -1,0 +1,12 @@
+{
+    "name": "gooddata-as-code-james-bond",
+    "version": "0.0.1",
+    "private": true,
+    "dependencies": {
+        "@gooddata/code-cli": "^0.4.0"
+    },
+    "scripts": {
+        "validate": "gd validate",
+        "deploy": "gd deploy --profile ach --no-validate"
+    }
+}
