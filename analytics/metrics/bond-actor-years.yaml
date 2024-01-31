@@ -1,0 +1,15 @@
+
+type: metric
+id: actors__duration-as-bond
+
+title: How many years an actor spends as Bond
+
+maql: |-
+  SELECT IF (
+      SELECT MAX({fact/movies.age}) - MIN({fact/movies.age})
+        BY {label/bond}) > 0 THEN (
+      SELECT MAX({fact/movies.age}) - MIN({fact/movies.age})
+        BY {label/bond})
+      ELSE 1
+    END
+format: "#,##0"
