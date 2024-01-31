@@ -14,7 +14,7 @@ sections:
         title: In how many movies did each actor play?
         columns: 12
         rows: 22
-  - title: Most important Bond stats per actor
+  - title: Mo st important Bond stats per actor
     widgets:
       - visualization: actors__martinis
         title: How many martinis has each actor drink?
