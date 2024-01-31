@@ -3,7 +3,7 @@
     "version": "0.0.1",
     "private": true,
     "dependencies": {
-        "@gooddata/code-cli": "^0.4.0"
+        "@gooddata/code-cli": "^0.4.1"
     },
     "scripts": {
         "validate": "gd validate",
